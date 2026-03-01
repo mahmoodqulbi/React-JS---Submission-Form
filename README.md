@@ -28,6 +28,8 @@ A professional, fully responsive **Application Form** built with **React JS** �
 
 > Form is centered on screen with a blue gradient header, icon-prefixed inputs, custom radio/checkbox cards, and a styled file upload area.
 
+<img width="435" height="907" alt="Submission form UI " src="https://github.com/user-attachments/assets/e623b853-f297-4cce-858e-a20471a01107" />
+
 ---
 
 ## 🗂️ Project Structure
@@ -62,92 +64,25 @@ Make sure you have the following installed:
 
 ### Installation
 
-**1. Clone the repository**
-```bash
-git clone https://github.com/your-username/react-application-form.git
-```
-
-**2. Navigate into the project folder**
+**1. Navigate into the project folder**
 ```bash
 cd react-application-form
 ```
 
-**3. Install dependencies**
+**2. Install dependencies**
 ```bash
 npm install
 ```
 
-**4. Start the development server**
+**3. Start the development server**
 ```bash
 npm run dev
 ```
 
-**5. Open in browser**
+**4. Open in browser**
 ```
 http://localhost:5173
 ```
-
----
-
-## 🧠 How It Works
-
-### State Management (`App.jsx`)
-
-Each form field has its own state variable managed with React's `useState` hook:
-
-| State Variable    | Type    | Purpose                              |
-|-------------------|---------|--------------------------------------|
-| `firstName`       | String  | Stores first name input              |
-| `lastName`        | String  | Stores last name input               |
-| `email`           | String  | Stores email input                   |
-| `contact`         | String  | Stores phone number                  |
-| `gender`          | String  | Tracks selected gender radio option  |
-| `subjects`        | Object  | Tracks English/Maths/Physics toggles |
-| `resume`          | File    | Stores uploaded file object          |
-| `url`             | String  | Stores portfolio/LinkedIn URL        |
-| `selectedOption`  | String  | Tracks skill level dropdown value    |
-| `about`           | String  | Stores textarea content              |
-| `submitted`       | Boolean | Controls submit success animation    |
-
-### Key Functions
-
-```js
-handleSubmit(e)        // Prevents page reload, logs data, triggers success animation
-handleReset()          // Resets all state variables to default values
-handleSubjectChange()  // Toggles checkbox true/false for selected subject
-```
-
----
-
-## 🎨 Styling Highlights (`App.css`)
-
-| Feature                  | Description                                                  |
-|--------------------------|--------------------------------------------------------------|
-| CSS Variables (`:root`)  | Centralized color/spacing tokens for easy theming            |
-| Flexbox Centering        | `body` uses flex to center the form on all screen sizes      |
-| `@keyframes slideUp`     | Form slides up and fades in on page load                     |
-| `.radio-card.active`     | Selected gender card highlights in blue                      |
-| `.checkbox-card.active`  | Selected subject card highlights in blue                     |
-| `.file-upload-label`     | Dashed-border styled upload box replacing default file input |
-| `input:focus`            | Blue ring glow effect on focused input fields                |
-| `@media` query           | Single-column layout on screens smaller than 520px           |
-
----
-
-## 📦 Form Fields
-
-| Field            | Input Type   | Required |
-|------------------|--------------|----------|
-| First Name       | Text         | ✅ Yes   |
-| Last Name        | Text         | ✅ Yes   |
-| Email Address    | Email        | ✅ Yes   |
-| Contact Number   | Tel          | ✅ Yes   |
-| Gender           | Radio        | ✅ Yes   |
-| Best Subject     | Checkbox     | ❌ No    |
-| Upload Resume    | File         | ✅ Yes   |
-| Portfolio URL    | URL          | ✅ Yes   |
-| Skill Level      | Select       | ❌ No    |
-| About Yourself   | Textarea     | ✅ Yes   |
 
 ---
 
@@ -160,18 +95,3 @@ handleSubjectChange()  // Toggles checkbox true/false for selected subject
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♂️ Author
-
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
-
----
-
-> ⭐ If you found this project helpful, please give it a star on GitHub!
